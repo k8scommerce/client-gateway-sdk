@@ -44,4 +44,4 @@ npm run build
 $ROOT/gitpush.sh k8scommerce client-gateway-sdk "update to version ${version}" "github.com"
 
 # publish to npm
-cd $ROOT/../dist/client-gateway-sdk && npm publish && cd $ROOT
+cd $ROOT/../dist/client-gateway-sdk && npm publish --access public && cd $ROOT
