@@ -23,4 +23,8 @@ export type Customer = {
      *  password
      */
     password?: string;
+    /**
+     *  is_verified
+     */
+    isVerified?: boolean;
 };
