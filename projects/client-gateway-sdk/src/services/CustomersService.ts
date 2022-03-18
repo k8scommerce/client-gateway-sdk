@@ -126,8 +126,8 @@ export class CustomersService {
     }
 
     /**
-     * Resend Email Address Confirm Email
-     * resend email address confirmation email
+     * Verify Email Address
+     * verifies an email address via code contained in resendConfirmEmail
      * @param body  verify customer email address
      * @returns VerifyEmailAddressResponse A successful response.
      * @throws ApiError
