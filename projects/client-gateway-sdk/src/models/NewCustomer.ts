@@ -24,5 +24,5 @@ export type NewCustomer = {
     /**
      *  Address object
      */
-    shippingAddresses?: Address;
+    shippingAddress?: Address;
 };
