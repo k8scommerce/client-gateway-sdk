@@ -16,6 +16,8 @@ import type { ForgotPasswordResponse } from '../models/ForgotPasswordResponse';
 import type { GetCustomerResponse } from '../models/GetCustomerResponse';
 import type { ResendConfirmEmailRequest } from '../models/ResendConfirmEmailRequest';
 import type { ResendConfirmEmailResponse } from '../models/ResendConfirmEmailResponse';
+import type { SetPasswordRequest } from '../models/SetPasswordRequest';
+import type { SetPasswordResponse } from '../models/SetPasswordResponse';
 import type { VerifyEmailAddressRequest } from '../models/VerifyEmailAddressRequest';
 import type { VerifyEmailAddressResponse } from '../models/VerifyEmailAddressResponse';
 
@@ -104,6 +106,23 @@ export class CustomersService {
         return __request(OpenAPI, this.http, {
             method: 'POST',
             url: '/v1/customer/login',
+            body: body,
+        });
+    }
+
+    /**
+     * Create Customer
+     * creates a new customer
+     * @param body  set password
+     * @returns SetPasswordResponse A successful response.
+     * @throws ApiError
+     */
+    public setPassword(
+        body: SetPasswordRequest,
+    ): Observable<SetPasswordResponse> {
+        return __request(OpenAPI, this.http, {
+            method: 'POST',
+            url: '/v1/customer/password',
             body: body,
         });
     }

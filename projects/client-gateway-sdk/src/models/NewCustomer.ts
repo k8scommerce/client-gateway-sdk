@@ -18,10 +18,6 @@ export type NewCustomer = {
      */
     email: string;
     /**
-     *  password
-     */
-    password: string;
-    /**
      *  Address object
      */
     billingAddress?: Address;

@@ -49,6 +49,8 @@ export type { RemoveCartItemResponse } from './models/RemoveCartItemResponse';
 export type { ResendConfirmEmailRequest } from './models/ResendConfirmEmailRequest';
 export type { ResendConfirmEmailResponse } from './models/ResendConfirmEmailResponse';
 export type { ResponseStatus } from './models/ResponseStatus';
+export type { SetPasswordRequest } from './models/SetPasswordRequest';
+export type { SetPasswordResponse } from './models/SetPasswordResponse';
 export type { UpdateCartItemQuantityRequest } from './models/UpdateCartItemQuantityRequest';
 export type { UpdateCartItemQuantityResponse } from './models/UpdateCartItemQuantityResponse';
 export type { Variant } from './models/Variant';

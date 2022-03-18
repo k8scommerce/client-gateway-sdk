@@ -20,10 +20,6 @@ export type Customer = {
      */
     email: string;
     /**
-     *  password
-     */
-    password?: string;
-    /**
      *  is_verified
      */
     isVerified?: boolean;
