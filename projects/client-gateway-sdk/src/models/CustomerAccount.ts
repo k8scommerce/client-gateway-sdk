@@ -14,7 +14,7 @@ export type CustomerAccount = {
      */
     billingAddress: Address;
     /**
-     *  collection of Address objects
+     *  array of Address objects
      */
     shippingAddresses: Array<Address>;
 };
