@@ -8,6 +8,10 @@ export type Address = {
      */
     street: string;
     /**
+     *  apartment or suite
+     */
+    aptSuite?: string;
+    /**
      *  city name
      */
     city: string;
