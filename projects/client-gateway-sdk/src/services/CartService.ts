@@ -31,7 +31,7 @@ export class CartService {
      * @throws ApiError
      */
     public getCart(
-        customerId: number,
+        customerId: string,
     ): Observable<GetCartResponse> {
         return __request(OpenAPI, this.http, {
             method: 'GET',

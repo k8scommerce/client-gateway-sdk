@@ -86,9 +86,9 @@ export class ProductsService {
      * @throws ApiError
      */
     public getProductsByCategoryId(
-        categoryId: number,
-        currentPage: number,
-        pageSize: number,
+        categoryId: string,
+        currentPage: string,
+        pageSize: string,
         filter?: string,
         sortOn?: string,
     ): Observable<GetProductsByCategoryIdResponse> {
@@ -118,8 +118,8 @@ export class ProductsService {
      * @throws ApiError
      */
     public getAllProducts(
-        currentPage: number,
-        pageSize: number,
+        currentPage: string,
+        pageSize: string,
         filter?: string,
         sortOn?: string,
     ): Observable<GetAllProductsResponse> {

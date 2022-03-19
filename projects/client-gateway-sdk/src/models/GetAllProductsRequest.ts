@@ -3,8 +3,8 @@
 /* eslint-disable */
 
 export type GetAllProductsRequest = {
-    currentPage: number;
-    pageSize: number;
+    current_page: number;
+    page_size: number;
     filter?: string;
     sortOn?: string;
 };

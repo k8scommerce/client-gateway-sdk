@@ -6,5 +6,5 @@ export type GetCartRequest = {
     /**
      *  a customer's id
      */
-    customerId: number;
+    customer_id: number;
 };

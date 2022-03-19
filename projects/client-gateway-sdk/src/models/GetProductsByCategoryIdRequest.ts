@@ -3,9 +3,9 @@
 /* eslint-disable */
 
 export type GetProductsByCategoryIdRequest = {
-    categoryId: number;
-    currentPage: number;
-    pageSize: number;
+    category_id: number;
+    current_page: number;
+    page_size: number;
     filter?: string;
     sortOn?: string;
 };

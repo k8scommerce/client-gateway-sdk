@@ -6,5 +6,5 @@ export type ClearCartRequest = {
     /**
      *  a customer's id
      */
-    customerId: number;
+    customer_id: number;
 };

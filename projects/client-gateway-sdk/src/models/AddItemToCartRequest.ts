@@ -8,7 +8,7 @@ export type AddItemToCartRequest = {
     /**
      *  a customer's id
      */
-    customerId: number;
+    customer_id: number;
     /**
      *  an Item object
      */

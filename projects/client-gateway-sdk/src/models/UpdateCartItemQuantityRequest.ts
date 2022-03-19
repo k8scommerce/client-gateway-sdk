@@ -6,7 +6,7 @@ export type UpdateCartItemQuantityRequest = {
     /**
      *  a customer's id
      */
-    customerId: number;
+    customer_id: number;
     /**
      *  an item's variant sku number
      */
