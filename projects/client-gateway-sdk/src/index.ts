@@ -53,6 +53,8 @@ export type { SetPasswordRequest } from './models/SetPasswordRequest';
 export type { SetPasswordResponse } from './models/SetPasswordResponse';
 export type { UpdateCartItemQuantityRequest } from './models/UpdateCartItemQuantityRequest';
 export type { UpdateCartItemQuantityResponse } from './models/UpdateCartItemQuantityResponse';
+export type { UpdateCustomerRequest } from './models/UpdateCustomerRequest';
+export type { UpdateCustomerResponse } from './models/UpdateCustomerResponse';
 export type { Variant } from './models/Variant';
 export type { VerifyEmailAddressRequest } from './models/VerifyEmailAddressRequest';
 export type { VerifyEmailAddressResponse } from './models/VerifyEmailAddressResponse';

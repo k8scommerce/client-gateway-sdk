@@ -12,7 +12,7 @@ export type Variant = {
     /**
      *  is default variant. each product must have exactly 1 default variant
      */
-    isDefault: boolean;
+    is_default: boolean;
     /**
      *  variant sku. usually the product sku with appended identification tags
      */

@@ -10,11 +10,11 @@ export type Customer = {
     /**
      *  first name
      */
-    firstName: string;
+    first_name: string;
     /**
      *  last or given name
      */
-    lastName: string;
+    last_name: string;
     /**
      *  email address
      */
@@ -22,5 +22,5 @@ export type Customer = {
     /**
      *  is_verified
      */
-    isVerified?: boolean;
+    is_verified?: boolean;
 };

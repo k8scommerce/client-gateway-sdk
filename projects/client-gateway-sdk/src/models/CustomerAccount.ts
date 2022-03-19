@@ -12,9 +12,9 @@ export type CustomerAccount = {
     /**
      *  Address object
      */
-    billingAddress: Address;
+    billing_address: Address;
     /**
      *  array of Address objects
      */
-    shippingAddresses: Array<Address>;
+    shipping_addresses: Array<Address>;
 };

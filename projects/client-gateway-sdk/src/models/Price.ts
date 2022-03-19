@@ -10,19 +10,19 @@ export type Price = {
     /**
      *  sale price
      */
-    salePrice: number;
+    sale_price: number;
     /**
      *  formatted sale price
      */
-    formattedSalePrice: string;
+    formatted_sale_price: string;
     /**
      *  retail price
      */
-    retailPrice?: number;
+    retail_price?: number;
     /**
      *  formatted retail price
      */
-    formattedRetailPrice?: string;
+    formatted_retail_price?: string;
     /**
      *  currency. example: USD, CAN, etc.
      */

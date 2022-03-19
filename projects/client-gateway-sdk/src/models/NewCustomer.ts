@@ -8,11 +8,11 @@ export type NewCustomer = {
     /**
      *  first name
      */
-    firstName: string;
+    first_name: string;
     /**
      *  last or given name
      */
-    lastName: string;
+    last_name: string;
     /**
      *  email address, unique per store id
      */
@@ -20,9 +20,9 @@ export type NewCustomer = {
     /**
      *  Address object
      */
-    billingAddress?: Address;
+    billing_address?: Address;
     /**
      *  Address object
      */
-    shippingAddress?: Address;
+    shipping_address?: Address;
 };

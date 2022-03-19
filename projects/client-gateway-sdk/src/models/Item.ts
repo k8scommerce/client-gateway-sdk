@@ -18,5 +18,5 @@ export type Item = {
     /**
      *  when this item expires in the cart
      */
-    expiresAt: string;
+    expires_at: string;
 };

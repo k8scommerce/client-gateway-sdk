@@ -12,5 +12,5 @@ export type Cart = {
     /**
      *  the sum total of the cart
      */
-    totalPrice: number;
+    total_price: number;
 };

@@ -10,7 +10,7 @@ export type Category = {
     /**
      *  parent category id. references Category.Id
      */
-    parentId: number;
+    parent_id: number;
     /**
      *  slug name of the category
      */
@@ -26,15 +26,15 @@ export type Category = {
     /**
      *  metatag title for SEO
      */
-    metaTitle?: string;
+    meta_title?: string;
     /**
      *  metatag description for SEO
      */
-    metaDescription?: string;
+    meta_description?: string;
     /**
      *  metatag keywords for SEO
      */
-    metaKeywords?: string;
+    meta_keywords?: string;
     /**
      *  category level depth
      */
@@ -42,5 +42,5 @@ export type Category = {
     /**
      *  sort order of menu items on the same level and same parent id
      */
-    sortOrder?: number;
+    sort_order?: number;
 };

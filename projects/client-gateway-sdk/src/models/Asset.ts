@@ -10,11 +10,11 @@ export type Asset = {
     /**
      *  product id
      */
-    productId?: number;
+    product_id?: number;
     /**
      *  variant id
      */
-    variantId?: number;
+    variant_id?: number;
     /**
      *  asset name
      */
@@ -22,7 +22,7 @@ export type Asset = {
     /**
      *  display name
      */
-    displayName?: string;
+    display_name?: string;
     /**
      *  full, public access url
      */
@@ -34,11 +34,11 @@ export type Asset = {
     /**
      *  content type (mime type)
      */
-    contentType?: string;
+    content_type?: string;
     /**
      *  sort order
      */
-    sortOrder?: number;
+    sort_order?: number;
     /**
      *  map[tag:string]url:string
      */

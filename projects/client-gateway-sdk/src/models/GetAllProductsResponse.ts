@@ -6,6 +6,6 @@ import type { Product } from './Product';
 
 export type GetAllProductsResponse = {
     products: Array<Product>;
-    totalRecords: number;
-    totalPages: number;
+    total_records: number;
+    total_pages: number;
 };

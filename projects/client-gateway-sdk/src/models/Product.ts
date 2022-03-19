@@ -22,7 +22,7 @@ export type Product = {
     /**
      *  product short description. used in category pages
      */
-    shortDescription?: string;
+    short_description?: string;
     /**
      *  category description
      */
@@ -30,15 +30,15 @@ export type Product = {
     /**
      *  metatag title for SEO
      */
-    metaTitle?: string;
+    meta_title?: string;
     /**
      *  metatag description for SEO
      */
-    metaDescription?: string;
+    meta_description?: string;
     /**
      *  metatag keywords for SEO
      */
-    metaKeywords?: string;
+    meta_keywords?: string;
     /**
      *  collection of Variant objects
      */
@@ -46,7 +46,7 @@ export type Product = {
     /**
      *  default Asset object of image type
      */
-    defaultImage?: Asset;
+    default_image?: Asset;
     /**
      *  array of Asset objects of image type
      */

@@ -10,5 +10,5 @@ export type CheckForExistingEmailResponse = {
     /**
      *  boolean true/false
      */
-    isVerified: boolean;
+    is_verified: boolean;
 };
