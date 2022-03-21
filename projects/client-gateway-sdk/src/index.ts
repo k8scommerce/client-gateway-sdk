@@ -20,7 +20,6 @@ export type { ClearCartResponse } from './models/ClearCartResponse';
 export type { CreateCustomerRequest } from './models/CreateCustomerRequest';
 export type { CreateCustomerResponse } from './models/CreateCustomerResponse';
 export type { Customer } from './models/Customer';
-export type { CustomerAccount } from './models/CustomerAccount';
 export type { CustomerLoginRequest } from './models/CustomerLoginRequest';
 export type { CustomerLoginResponse } from './models/CustomerLoginResponse';
 export type { ForgotPasswordRequest } from './models/ForgotPasswordRequest';

@@ -86,19 +86,19 @@ export class ProductsService {
      * @throws ApiError
      */
     public getProductsByCategoryId(
-        categoryId: string,
-        currentPage: string,
-        pageSize: string,
+        categoryId: number,
+        currentPage: number,
+        pageSize: number,
         filter?: string,
         sortOn?: string,
     ): Observable<GetProductsByCategoryIdResponse> {
         return __request(OpenAPI, this.http, {
             method: 'GET',
-            url: '/v1/products/{categoryId}/{currentPage}/{pageSize}',
+            url: '/v1/products/{category_id}/{current_page}/{page_size}',
             path: {
-                'categoryId': categoryId,
-                'currentPage': currentPage,
-                'pageSize': pageSize,
+                'category_id': categoryId,
+                'current_page': currentPage,
+                'page_size': pageSize,
             },
             query: {
                 'filter': filter,
@@ -118,17 +118,17 @@ export class ProductsService {
      * @throws ApiError
      */
     public getAllProducts(
-        currentPage: string,
-        pageSize: string,
+        currentPage: number,
+        pageSize: number,
         filter?: string,
         sortOn?: string,
     ): Observable<GetAllProductsResponse> {
         return __request(OpenAPI, this.http, {
             method: 'GET',
-            url: '/v1/products/{currentPage}/{pageSize}',
+            url: '/v1/products/{current_page}/{page_size}',
             path: {
-                'currentPage': currentPage,
-                'pageSize': pageSize,
+                'current_page': currentPage,
+                'page_size': pageSize,
             },
             query: {
                 'filter': filter,

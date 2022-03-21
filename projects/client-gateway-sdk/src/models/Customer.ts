@@ -2,6 +2,8 @@
 /* tslint:disable */
 /* eslint-disable */
 
+import type { Address } from './Address';
+
 export type Customer = {
     /**
      *  customer id
@@ -23,4 +25,12 @@ export type Customer = {
      *  is_verified
      */
     is_verified?: boolean;
+    /**
+     *  Address object
+     */
+    billing_addresses?: Array<Address>;
+    /**
+     *  array of Address objects
+     */
+    shipping_addresses?: Array<Address>;
 };

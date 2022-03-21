@@ -31,13 +31,13 @@ export class CartService {
      * @throws ApiError
      */
     public getCart(
-        customerId: string,
+        customerId: number,
     ): Observable<GetCartResponse> {
         return __request(OpenAPI, this.http, {
             method: 'GET',
-            url: '/v1/cart/{customerId}',
+            url: '/v1/cart/{customer_id}',
             path: {
-                'customerId': customerId,
+                'customer_id': customerId,
             },
         });
     }
@@ -56,9 +56,9 @@ export class CartService {
     ): Observable<ClearCartResponse> {
         return __request(OpenAPI, this.http, {
             method: 'DELETE',
-            url: '/v1/cart/{customerId}',
+            url: '/v1/cart/{customer_id}',
             path: {
-                'customerId': customerId,
+                'customer_id': customerId,
             },
             body: body,
         });
@@ -78,9 +78,9 @@ export class CartService {
     ): Observable<AddItemToCartResponse> {
         return __request(OpenAPI, this.http, {
             method: 'POST',
-            url: '/v1/cart/{customerId}',
+            url: '/v1/cart/{customer_id}',
             path: {
-                'customerId': customerId,
+                'customer_id': customerId,
             },
             body: body,
         });
@@ -102,9 +102,9 @@ export class CartService {
     ): Observable<RemoveCartItemResponse> {
         return __request(OpenAPI, this.http, {
             method: 'DELETE',
-            url: '/v1/cart/{customerId}/{sku}',
+            url: '/v1/cart/{customer_id}/{sku}',
             path: {
-                'customerId': customerId,
+                'customer_id': customerId,
                 'sku': sku,
             },
             body: body,
@@ -127,9 +127,9 @@ export class CartService {
     ): Observable<UpdateCartItemQuantityResponse> {
         return __request(OpenAPI, this.http, {
             method: 'PUT',
-            url: '/v1/cart/{customerId}/{sku}',
+            url: '/v1/cart/{customer_id}/{sku}',
             path: {
-                'customerId': customerId,
+                'customer_id': customerId,
                 'sku': sku,
             },
             body: body,
