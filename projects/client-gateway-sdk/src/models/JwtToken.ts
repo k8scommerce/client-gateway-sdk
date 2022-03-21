@@ -3,7 +3,7 @@
 /* eslint-disable */
 
 export type JwtToken = {
-    accessToken: string;
-    accessExpire: number;
-    refreshAfter: number;
+    accessToken?: string;
+    accessExpire?: number;
+    refreshAfter?: number;
 };

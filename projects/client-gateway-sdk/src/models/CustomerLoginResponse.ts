@@ -9,11 +9,11 @@ export type CustomerLoginResponse = {
     /**
      *  jwt token
      */
-    jwt: JwtToken;
+    jwt?: JwtToken;
     /**
      *  Customer object
      */
-    customer: Customer;
+    customer?: Customer;
     /**
      *  success bool
      */

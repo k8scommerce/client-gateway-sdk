@@ -8,19 +8,19 @@ export type Customer = {
     /**
      *  customer id
      */
-    id: number;
+    id?: number;
     /**
      *  first name
      */
-    first_name: string;
+    first_name?: string;
     /**
      *  last or given name
      */
-    last_name: string;
+    last_name?: string;
     /**
      *  email address
      */
-    email: string;
+    email?: string;
     /**
      *  is_verified
      */
