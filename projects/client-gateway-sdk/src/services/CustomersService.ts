@@ -156,7 +156,7 @@ export class CustomersService {
     ): Observable<VerifyEmailAddressResponse> {
         return __request(OpenAPI, this.http, {
             method: 'POST',
-            url: '/v1/customer/verfify-email-address',
+            url: '/v1/customer/verify-email-address',
             body: body,
         });
     }
