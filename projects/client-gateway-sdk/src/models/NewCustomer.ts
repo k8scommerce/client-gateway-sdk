@@ -14,6 +14,14 @@ export type NewCustomer = {
      */
     last_name: string;
     /**
+     *  company name
+     */
+    company?: string;
+    /**
+     *  phone
+     */
+    phone?: string;
+    /**
      *  email address, unique per store id
      */
     email: string;

@@ -7,7 +7,7 @@
     "k8scommerce",
     "client gateway api"
   ],
-  "version": "1.0.12",
+  "version": "1.0.13",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

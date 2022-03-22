@@ -18,6 +18,14 @@ export type Customer = {
      */
     last_name?: string;
     /**
+     *  company name
+     */
+    company?: string;
+    /**
+     *  phone
+     */
+    phone?: string;
+    /**
      *  email address
      */
     email?: string;
