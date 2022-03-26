@@ -7,6 +7,7 @@ import type { Observable } from 'rxjs';
 
 import type { Category } from '../models/Category';
 import type { GetAllCategoriesResponse } from '../models/GetAllCategoriesResponse';
+import type { GetCategoryBySlugRequest } from '../models/GetCategoryBySlugRequest';
 
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -32,19 +33,17 @@ export class CategoriesService {
     /**
      * Get Category By Slug
      * returns all categories by slug belonging to a store
-     * @param slug category slug
+     * @param body  get category by slug
      * @returns Category A successful response.
      * @throws ApiError
      */
     public getCategoryBySlug(
-        slug: string,
+        body: GetCategoryBySlugRequest,
     ): Observable<Category> {
         return __request(OpenAPI, this.http, {
-            method: 'GET',
-            url: '/v1/category/slug/{slug}',
-            path: {
-                'slug': slug,
-            },
+            method: 'POST',
+            url: '/v1/category/slug',
+            body: body,
         });
     }
 

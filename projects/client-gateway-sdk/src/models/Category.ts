@@ -6,19 +6,19 @@ export type Category = {
     /**
      *  category id
      */
-    id: number;
+    id?: number;
     /**
      *  parent category id. references Category.Id
      */
-    parent_id: number;
+    parent_id?: number;
     /**
      *  slug name of the category
      */
-    slug: string;
+    slug?: string;
     /**
      *  name of category
      */
-    name: string;
+    name?: string;
     /**
      *  description of category
      */

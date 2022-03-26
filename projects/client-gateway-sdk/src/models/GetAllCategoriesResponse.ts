@@ -8,5 +8,5 @@ export type GetAllCategoriesResponse = {
     /**
      *  a collection of Category
      */
-    categories: Array<Category>;
+    categories?: Array<Category>;
 };
