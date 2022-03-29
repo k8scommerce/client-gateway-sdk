@@ -6,17 +6,21 @@ export type Item = {
     /**
      *  an item's variant sku number
      */
-    sku: string;
+    note?: string;
+    /**
+     *  an item's variant sku number
+     */
+    sku?: string;
     /**
      *  how many of identical items
      */
-    quantity: number;
+    quantity?: number;
     /**
      *  the item's price
      */
-    price: number;
+    price?: number;
     /**
      *  when this item expires in the cart
      */
-    expires_at: string;
+    expires_at?: string;
 };

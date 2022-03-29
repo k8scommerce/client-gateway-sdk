@@ -2,6 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-export type ClearCartRequest = {
+export type AttachCustomerRequest = {
     cart_id: string;
+    customer_email: string;
 };

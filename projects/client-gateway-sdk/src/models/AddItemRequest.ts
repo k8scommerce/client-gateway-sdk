@@ -2,6 +2,9 @@
 /* tslint:disable */
 /* eslint-disable */
 
-export type ClearCartRequest = {
+import type { Item } from './Item';
+
+export type AddItemRequest = {
     cart_id: string;
+    item: Item;
 };

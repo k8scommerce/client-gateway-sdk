@@ -2,6 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-export type ClearCartRequest = {
+export type UpdateStatusRequest = {
     cart_id: string;
+    status: number;
 };

@@ -2,6 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-export type ClearCartRequest = {
+export type RemoveItemRequest = {
     cart_id: string;
+    sku: string;
 };
