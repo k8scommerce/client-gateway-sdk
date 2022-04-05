@@ -6,7 +6,7 @@ import type { Address } from './Address';
 
 export type UpdateCustomerDetailRequest = {
     cart_id: string;
-    first_nameoptional?: string;
+    first_name?: string;
     last_name?: string;
     company?: string;
     phone?: string;
