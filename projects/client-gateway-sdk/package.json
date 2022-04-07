@@ -7,7 +7,7 @@
     "k8scommerce",
     "client gateway api"
   ],
-  "version": "1.0.19",
+  "version": "1.0.20",
   "peerDependencies": {
     "@angular/common": "^13.1.0",
     "@angular/core": "^13.1.0"

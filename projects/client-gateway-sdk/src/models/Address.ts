@@ -4,6 +4,10 @@
 
 export type Address = {
     /**
+     *  recipients name
+     */
+    recipient_name: string;
+    /**
      *  street name, ie: 1723 NW 23rd Ave.
      */
     street: string;
@@ -27,6 +31,10 @@ export type Address = {
      *  postal or zip code
      */
     postal_code: string;
+    /**
+     *  indicates if this is a commercial address
+     */
+    is_commercial: boolean;
     /**
      *  indicates if this is a default address
      */
