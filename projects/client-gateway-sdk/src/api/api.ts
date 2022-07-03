@@ -1,0 +1,11 @@
+export * from './api.service';
+import { ApiService } from './api.service';
+export * from './cart.service';
+import { CartService } from './cart.service';
+export * from './categories.service';
+import { CategoriesService } from './categories.service';
+export * from './customers.service';
+import { CustomersService } from './customers.service';
+export * from './products.service';
+import { ProductsService } from './products.service';
+export const APIS = [ApiService, CartService, CategoriesService, CustomersService, ProductsService];
